@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Resonancia</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <style>
+         /* Estilo CSS*/
+         .jumbotron {
+            color: rgb(66, 58, 58);
+            background-repeat: no-repeat;
+            background-position: center;
+         }
+
+         .producto {
+            border: solid 2px #ddd;
+            padding: 10px;
+         }
+
+         .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+         }
+         #col-md-4{
+            transform: translateY(-5px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+         }
+
+         .Row{
+            text-align: center;
+         }
+
+      </style>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#">Bienvenido a Resonancia</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Contacto</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+         <div class="jumbotron">
+            <div class="container">
+               <h1 class="display-3">Bienvenido a Resonancia, nuestra empresa de apicultura</h1>
+               <p>Aquí puedes comprar los mejores productos apícolas de nuestra región</p>
+               <p><a class="btn btn-primary btn-lg" href="#" role="button">Ver productos</a></p>
+            </div>
+         </div>
+      </header>
+      <main role="main">
+         <div class="container">
+            <center>
+                <h2>Nuestros productos</h2>
+            </center>
+            <div class="row">
+               <div class="col-md-4 producto">
+                  <h3>Miel pura de abeja</h3>
+                  <img src="Miel.jpg" width="355px" height="300px" alt="Miel pura de abeja">
+                  <p>La miel que ofrecemos es 100% natural y de la más alta calidad. Producida por nuestras abejas, esta miel es rica en antioxidantes y otros nutrientes.</p>
+                  <a href="#" class="btn btn-primary">Comprar ahora</a>
+               </div>
+               <div class="col-md-4 producto">
+                  <h3>Propóleo</h3>
+                  <img src="Propóleo.jpg" width="355px" height="300px" alt="Propóleo">
+                  <p>Nuestro propóleo es extraído de nuestras colmenas y es un potente antioxidante y antibiótico natural. Ideal para la prevención y tratamiento de infecciones.</p>
+                  <a href="#" class="btn btn-primary">Comprar ahora</a>
+               </div>
+               <div class="col-md-4 producto">
+                  <h3>Cera de Abejas</h3>
+                  <img src="cera.jpg" width="355px" height="300px" alt="Cera de abejas">
+                  <p>Nuestra cera es de la más alta calidad y es ideal para la elaboración de velas y otros productos artesanales. También es usada en la elaboración de cremas y bálsamos.</p>
+                  <a href="#" class="btn btn-primary">Comprar ahora</a>
+               </div>
+               <div class="col-md-4 producto">
+                <h3>Miel de Acahual</h3>
+                <img src="MielMantequilla.jpg" width="355px" height="380px" alt="Cera de abejas">
+                <p>Nustra miel de acahual o mantequilla es mucho más densa y opaca que otras, de color amarillo claro. Es envolvente en el paladar, dulce y aterciopelada.</p>
+                <br>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
+               </div>
+               <div class="col-md-4 producto">
+                <h3>Miel Multiflora</h3>
+                <img src="Multifloral.jpg" width="355px" height="380px" alt="Cera de abejas">
+                <p>Nuestra miel se caracteriza por poseer de un sabor intenso, muy dulce y persistente, matizado con notas cítricas y sutilmente amargas, con un aroma fuertemente floral intenso, muy agradable al paladar.</p>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
+               </div>
+               <div class="col-md-4 producto">
+                <h3>Miel de Tajonal</h3>
+                <img src="MielTajonal.jpg" width="355px" height="380px" alt="Cera de abejas">
+                <p>Nuestra miel de Tajonal solo se colecta una vez durante el año ya que es estacional, así que no te pierdas la experiencia de probarla. ¡Disfruta de esta deliciosa miel, uno de los regalos más finos de la naturaleza!. </p>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
+               </div>
+                <br><br>
+                <nav id="PageNavegation">
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+             </div>
+             <br>
+            </div>
+         </div>
+      </main>
+      <footer class="container">
+         <p>©2016 Resonancia, Empresa de apicultura</p>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   </body>
+</html>
